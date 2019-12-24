@@ -29,7 +29,7 @@ public class nameNPC : MonoBehaviour
 				obj.transform.GetChild(0).GetComponent<Text>().text = npcObj[i].name;
 				obj.transform.GetChild(0).GetComponent<Text>().color = Color.green;
 				obj.transform.SetParent(canvas.transform);
-				obj.transform.position = npcObj[i].transform.position + new Vector3(0, 5.0f, 0);
+				obj.transform.position = npcObj[i].transform.GetChild(5).position;
 				nameObj[i] = obj;
 			}
 		}
@@ -43,7 +43,7 @@ public class nameNPC : MonoBehaviour
 			{
 				if(nameObj[i].transform.position != npcObj[i].transform.position)
 				{
-					nameObj[i].transform.position = npcObj[i].transform.position + new Vector3(0, 5.0f, 0);
+					nameObj[i].transform.position = npcObj[i].transform.GetChild(5).position;
 				}
 			}
 		}

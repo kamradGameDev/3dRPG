@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -1130,8 +1131,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625115683}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -2686,7 +2688,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1317731886}
   - component: {fileID: 1317731885}
-  - component: {fileID: 1317731884}
   - component: {fileID: 1317731883}
   - component: {fileID: 1317731882}
   - component: {fileID: 1317731887}
@@ -2706,14 +2707,6 @@ AudioListener:
   m_GameObject: {fileID: 1317731881}
   m_Enabled: 1
 --- !u!124 &1317731883
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317731881}
-  m_Enabled: 1
---- !u!92 &1317731884
 Behaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2790,7 +2783,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b113b7856d0880c4d83cdbadd7b837eb, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.037
   m_Pitch: 1
   Loop: 0
   Mute: 0
