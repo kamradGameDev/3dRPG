@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - WorldCreator
+  - InventorySlots
+  - Enemy
+  - NPCHelper
+  - NPC
+  - Sword
+  - Equip
+  - EquipObj
+  - DescPanel
+  - UI
+  - PlayerWeapon
+  - Tree
+  - LumberYard
+  - PlayerHead
+  - EnemySpawn
+  - Terrain
+  - SecureZone
+  - PlayerExpText
+  - PlayerHealthText
+  - PlayerManaText
+  - PlayerLevelText
+  - PlayerExpSlider
+  - PlayerMana
+  - PlayerHealth
+  - joystick
+  - LootDescPanel
+  - LogGame
+  - ContentView
+  - SecurityPoint
+  - PlayerAttributesPanel
+  - PlayerStrengthText
+  - PlayerManaIntText
+  - PlayerDamageText
+  - PlayerDexterityText
+  - PlayerDefenceText
+  - PlayerStaminaText
+  - WarningText
+  - PlayerSpawn
+  - PlayerGoldText
+  - LootObj
+  - LevelUpParticle
+  - QuestNPC
+  - EquipItems
+  - RemoveEquipmentButton
+  - EquipButton
+  - LowAttackButton
+  - WeaponInPlayer
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - MiniMap
+  - Terrain
+  - NPCanvas
+  - DefAndMiniMap
+  - PostProcessing
+  - notLight
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
