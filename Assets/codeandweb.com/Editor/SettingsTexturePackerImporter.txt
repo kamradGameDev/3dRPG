@@ -1,0 +1,15 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Demo/HealthORb.tpsheet
+- Assets/Demo/ManaBar.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Demo/HealthORb.png
+- Assets/Demo/ManaBar.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+enableDebugOutput: 0
